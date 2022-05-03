@@ -1,7 +1,0 @@
-query StripeConfig {
-  paymentProviders {
-    stripe {
-      config
-    }
-  }
-}

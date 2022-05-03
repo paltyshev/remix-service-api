@@ -1,5 +1,0 @@
-query GetOrder($id: String!) {
-  orders {
-    get(id: $id)
-  }
-}

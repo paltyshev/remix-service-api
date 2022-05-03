@@ -1,7 +1,0 @@
-mutation StripePaymentIntent($checkoutModel: CheckoutModelInput!) {
-  paymentProviders {
-    stripe {
-      createPaymentIntent(checkoutModel: $checkoutModel)
-    }
-  }
-}
