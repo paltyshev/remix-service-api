@@ -6,7 +6,7 @@ function getTotals({ cart, vatType }) {
       if (price) {
         const priceToUse = price.discounted || price;
         acc.gross += priceToUse.gross * quantity;
-        acc.net += priceToUse.net * quantity;
+        acc.net += priceToUse.net * quantity + 1000;
         acc.currency = price.currency;
       }
 
